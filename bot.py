@@ -33,4 +33,4 @@ async def display_event_card(ctx):
     await ctx.send(embed=event_card)
 
 # Run the bot using your bot token
-bot.run('MTE0MTg3Mjk5MjY3MDk3NDA3Mw.GbEvXc.Z9wBskLlb9zks7ZXU-wtqPyImeRR3hvY2ttqBw')
+bot.run('BOT_TOKEN')
