@@ -33,4 +33,7 @@ async def display_event_card(ctx):
     await ctx.send(embed=event_card)
 
 # Run the bot using your bot token
-bot.run('BOT_TOKEN')
+import os
+
+# Access the repository secret
+bot_token = os.environ['BOT_TOKEN']
