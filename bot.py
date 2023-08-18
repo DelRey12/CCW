@@ -4,7 +4,7 @@ from discord.ext import commands
 # Define your intents
 intents = discord.Intents.default()  # This enables the default intents
 intents.typing = False  # You can adjust individual intents as needed
-intents.message_content = True  # Add this line to enable message content intent
+intents.message_contents = True  # Use 'message_contents' instead of 'message_content'
 
 # Set up the bot's command prefix and create a bot instance
 bot = commands.Bot(command_prefix='/', intents=intents)
